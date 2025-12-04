@@ -1,0 +1,85 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Local env files
+.env*.local
+.env
+
+# Typescript
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+ios/build/
+android/build/
+android/.gradle/
+android/app/build/
+
+# Android
+*.apk
+*.aab
+
+# iOS
+ios/Pods/
+*.xcworkspace
+!default.xcworkspace
+*.xcuserstate
+DerivedData/
+
+# Database files (SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Artifacts directory (optional - keep if you want to track them)
+# /Users/shivika/.gemini/antigravity/brain/
+
+# OS
+Thumbs.db
+
+app-example
+
+# generated native folders
+/ios
+/android
